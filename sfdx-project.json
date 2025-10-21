@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "naklab-frameworks",
+      "default": true
+    }
+  ],
+  "name": "Package-Salesforce-Naklab-Frameworks",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "65.0"
+}

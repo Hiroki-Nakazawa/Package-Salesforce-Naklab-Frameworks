@@ -1,0 +1,6 @@
+# Package.xml file
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/__tests__/**
