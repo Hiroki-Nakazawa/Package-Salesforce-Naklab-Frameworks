@@ -1,0 +1,24 @@
+# Salesforce cache
+.sf/
+.sfdx/
+.localdevserver/
+deploy-options.json
+
+# VS Code cache
+.vscode/
+
+# Salesforce Package
+package/
+
+# LWC VSCode autocomplete
+**/lwc/jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
+
+# Logs
+logs
+*.log
+
+# MacOS system files
+.DS_Store
