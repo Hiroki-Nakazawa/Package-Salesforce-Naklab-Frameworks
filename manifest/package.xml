@@ -1,4 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<!-- Query Framework -->
+		<members>nlf_QueryBuilder</members>
+		<!-- Query Framework Test -->
+		<members>nlf_QueryBuilderTest</members>
+		<!-- Query Framework Clauses -->
+		<members>nlf_Clause</members>
+		<members>nlf_SelectClause</members>
+		<members>nlf_FromClause</members>
+		<members>nlf_WhereClause</members>
+		<members>nlf_OrderClause</members>
+		<members>nlf_LimitClause</members>
+		<members>nlf_OffsetClause</members>
+		<members>nlf_ScopeClause</members>
+		<!-- Query Framework Clauses Test -->
+		<members>nlf_ClauseTest</members>
+		<members>nlf_SelectClauseTest</members>
+		<members>nlf_FromClauseTest</members>
+		<members>nlf_WhereClauseTest</members>
+		<members>nlf_OrderClauseTest</members>
+		<members>nlf_LimitClauseTest</members>
+		<members>nlf_OffsetClauseTest</members>
+		<members>nlf_ScopeClauseTest</members>
+		<!-- Query Framework Fields -->
+		<members>nlf_Field</members>
+		<members>nlf_SelectField</members>
+		<members>nlf_WhereField</members>
+		<members>nlf_OrderField</members>
+		<!-- Query Framework Fields Test -->
+		<members>nlf_FieldTest</members>
+		<members>nlf_SelectFieldTest</members>
+		<members>nlf_WhereFieldTest</members>
+		<members>nlf_OrderFieldTest</members>
+		<!-- Query Framework Configs -->
+		<members>nlf_ClauseName</members>
+		<members>nlf_ComparisonOperator</members>
+		<members>nlf_LogicalOperator</members>
+		<members>nlf_SortDirection</members>
+		<members>nlf_NullHandling</members>
+		<members>nlf_ScopeName</members>
+		<!-- Query Framework Configs Test -->
+		<members>nlf_ClauseNameTest</members>
+		<members>nlf_ComparisonOperatorTest</members>
+		<members>nlf_LogicalOperatorTest</members>
+		<members>nlf_SortDirectionTest</members>
+		<members>nlf_NullHandlingTest</members>
+		<members>nlf_ScopeNameTest</members>
+		<name>ApexClass</name>
+	</types>
 	<version>65.0</version>
 </Package>
